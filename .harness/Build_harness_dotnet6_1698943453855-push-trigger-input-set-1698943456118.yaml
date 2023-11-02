@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_dotnet6_1698943453855-push-trigger-input-set
+  identifier: Build_harness_dotnet6_1698943453855pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: project3
+  pipeline:
+    identifier: Build_harness_dotnet6_1698943453855
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
