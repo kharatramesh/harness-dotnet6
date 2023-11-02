@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_harness_dotnet6_1698943453855-pr-trigger-input-set
+  identifier: Build_harness_dotnet6_1698943453855prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: project3
+  pipeline:
+    identifier: Build_harness_dotnet6_1698943453855
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
